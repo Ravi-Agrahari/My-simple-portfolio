@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+/* header styling  */
+
+header {
+  background: linear-gradient(to right, #4e7fe1, #3a62b6);
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  color: rgb(224, 217, 217);
+  margin: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  /* color: sandybrown; */
+  font-size: 18px;
+  color: #ffffff; /* Pure white for better contrast */
+}
+
+header nav ul li {
+  display: inline;
+  margin: 5px 25px;
+}
+
+/* // intro and about styling  */
+
+.intro {
+  text-align: center;
+  align-content: center;
+  background: rgba(78, 127, 225, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.intro h1 {
+  margin-bottom: 5px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+}
+
+.intro img {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.about {
+  text-align: center;
+  align-content: center;
+  padding: 40px;
+  color: rgb(68, 31, 31);
+}
+
+.about p {
+  width: 60%;
+  margin: 5px 20%;
+  color: black;
+}
+
+.technical-skills {
+  text-align: center;
+  margin-bottom: 100px;
+  color: rgb(68, 31, 31);
+}
+
+.technical-skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+}
+.technical-skills ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.technical-skills ul li progress {
+  margin: 0 10px;
+}
+
+progress {
+  appearance: none;
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+progress::-webkit-progress-bar {
+  background-color: #e0e0e0;
+}
+progress::-webkit-progress-value {
+  background-color: #4e7fe1;
+}
+
+/* footer styling  */
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(78, 127, 225);
+  padding: 10px;
+  font-size: 20px;
+}
